@@ -1,0 +1,14 @@
+.header {
+  padding: 4px 32px;
+  background-color: var(--color-black);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+}

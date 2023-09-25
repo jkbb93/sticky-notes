@@ -1,0 +1,10 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 12px;
+  margin-bottom: 6px;
+  font-size: 14px;
+  filter: invert(1) grayscale(1) contrast(10);
+  opacity: 0.3;
+}

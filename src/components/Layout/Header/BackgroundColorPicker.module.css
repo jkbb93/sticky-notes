@@ -1,0 +1,14 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  column-gap: 12px;
+  cursor: pointer;
+  height: 100%;
+}
+
+.wrapper label {
+  font-size: 14px;
+  font-weight: 300;
+  cursor: inherit;
+}

@@ -1,0 +1,26 @@
+.header-controls {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  column-gap: 32px;
+}
+
+.help-button {
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.help-button svg {
+  fill: white;
+  width: 70%;
+  height: 70%;
+}
+
+.help-button:hover {
+  opacity: 0.8;
+}

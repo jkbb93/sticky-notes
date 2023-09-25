@@ -1,0 +1,23 @@
+.header {
+  width: 100%;
+  padding: 4px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.new-note-button-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.action-buttons-group {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.action-buttons-group button:nth-child(n + 1) {
+  margin-left: 16px;
+}
